@@ -1,0 +1,80 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article and release v1.0.0 of this repository."
+title: "Analysis code for: Accuracy of robotic full-crown preparation and preoperative crown fit"
+abstract: >-
+  Python analysis code for an in vitro study of robot-assisted full-crown preparation and
+  the seating fit of preoperatively fabricated crowns. The repository contains (i) the
+  Geomagic Wrap Python scripts that segment the ideal preparation and the scanned models
+  into seven anatomical regions, register the seating and crown scans, extract the
+  shoulder-margin contours and export the meshes to STL; and (ii) the standalone Python
+  scripts that compute the per-specimen print-scan-registration (PSR) correction,
+  preparation accuracy, crown printing accuracy, internal fit and marginal gap, together
+  with the validation of the semi-automated region segmentation. The two sets are kept in
+  separate top-level directories, 01_geomagic_wrap_scripts/ and 02_python_analysis/.
+type: software
+license: MIT
+authors:
+  - family-names: He
+    given-names: Qihang
+    affiliation: "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, National Clinical Research Center for Oral Diseases, Shaanxi Key Laboratory of Stomatology, Digital Center, School of Stomatology, The Fourth Military Medical University, Xi'an, Shaanxi, PR China"
+  - family-names: Liu
+    given-names: Yuchen
+    affiliation: "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, National Clinical Research Center for Oral Diseases, Shaanxi Key Laboratory of Stomatology, Digital Center, School of Stomatology, The Fourth Military Medical University, Xi'an, Shaanxi, PR China"
+  - family-names: Zhang
+    given-names: Jie
+    affiliation: "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, National Clinical Research Center for Oral Diseases, Shaanxi Key Laboratory of Stomatology, Digital Center, School of Stomatology, The Fourth Military Medical University, Xi'an, Shaanxi, PR China"
+  - family-names: Song
+    given-names: Shiwei
+    affiliation: "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, National Clinical Research Center for Oral Diseases, Shaanxi Key Laboratory of Stomatology, Digital Center, School of Stomatology, The Fourth Military Medical University, Xi'an, Shaanxi, PR China"
+  - family-names: Liu
+    given-names: Chen
+    affiliation: "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, National Clinical Research Center for Oral Diseases, Shaanxi Key Laboratory of Stomatology, Digital Center, School of Stomatology, The Fourth Military Medical University, Xi'an, Shaanxi, PR China"
+  - family-names: Bai
+    given-names: Shizhu
+    affiliation: "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, National Clinical Research Center for Oral Diseases, Shaanxi Key Laboratory of Stomatology, Digital Center, School of Stomatology, The Fourth Military Medical University, Xi'an, Shaanxi, PR China"
+  - family-names: Zhao
+    given-names: Yimin
+    affiliation: "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, National Clinical Research Center for Oral Diseases, Shaanxi Key Laboratory of Stomatology, Digital Center, School of Stomatology, The Fourth Military Medical University, Xi'an, Shaanxi, PR China"
+contact:
+  - family-names: Bai
+    given-names: Shizhu
+    affiliation: "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, National Clinical Research Center for Oral Diseases, Shaanxi Key Laboratory of Stomatology, Digital Center, School of Stomatology, The Fourth Military Medical University, No. 145 Changle West Road, Xincheng District, Xi'an 710032, Shaanxi, PR China"
+    email: "Baishizhu@foxmail.com"
+  - family-names: Liu
+    given-names: Chen
+    affiliation: "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, National Clinical Research Center for Oral Diseases, Shaanxi Key Laboratory of Stomatology, Digital Center, School of Stomatology, The Fourth Military Medical University, No. 145 Changle West Road, Xincheng District, Xi'an 710032, Shaanxi, PR China"
+    email: "Liuchen0508@foxmail.com"
+keywords:
+  - robot-assisted dentistry
+  - full-crown preparation
+  - preparation accuracy
+  - preoperative crown
+  - region segmentation
+  - marginal gap
+  - internal fit
+  - trimesh
+  - Geomagic Wrap
+  - reproducible research
+version: "1.0.0"
+date-released: "2026-10-04"
+repository-code: "https://github.com/Qihang-He/robot-assisted-crown-preparation"
+references:
+  - type: article
+    title: "Accuracy of robotic full-crown preparation and preoperative crown fit"
+    authors:
+      - family-names: He
+        given-names: Qihang
+      - family-names: Liu
+        given-names: Yuchen
+      - family-names: Zhang
+        given-names: Jie
+      - family-names: Song
+        given-names: Shiwei
+      - family-names: Liu
+        given-names: Chen
+      - family-names: Bai
+        given-names: Shizhu
+      - family-names: Zhao
+        given-names: Yimin
+    journal: "Journal of Dental Research"
+    year: "2026"

@@ -1,0 +1,17 @@
+# Python dependencies for the standalone scripts (02_python_analysis/).
+# The Geomagic Wrap scripts (01_geomagic_wrap_scripts/) do not use
+# these packages: they run inside the Python environment bundled with Geomagic Wrap
+# 2021 or later (Python 3.6+), where only the geomagic.app.v3 module is needed.
+#
+# Install with:  pip install -r requirements.txt
+# Python 3.8 or later is required (the deposited results were produced with Python 3.10).
+
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+trimesh>=3.9.0
+shapely>=1.8.0
+tqdm>=4.60.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+openpyxl>=3.0.0

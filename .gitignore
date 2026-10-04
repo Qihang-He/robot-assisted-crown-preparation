@@ -1,0 +1,43 @@
+# --- Python bytecode / caches -------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# --- Analysis outputs --------------------------------------------------------
+# Everything written by the analysis scripts into DATA_ROOT.
+/output/
+analysis_results/
+Region_Segmentation_Results/
+Raw_Data/
+Supplementary_Tables.xlsx
+
+# --- Validation outputs ------------------------------------------------------
+data/manual_segmentation/
+data/auto_segmentation/
+validation_summary.xlsx
+figures/Validation_Metrics_Boxplot.*
+
+# --- Data and derived binaries ----------------------------------------------
+# Raw scans, segmented meshes, point clouds and registration matrices are not
+# versioned here; they are deposited in the public data repository.
+*.stl
+*.STL
+*.asc
+*.tfm
+*.ply
+*.obj
+
+# Data archives of the companion dataset deposit (not versioned here)
+*_Raw_Scans.zip
+*_Region_Segmentation.zip
+*_Analysis_Results.zip
+*_Supplementary_Materials.zip
+
+# --- Editors / OS ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
