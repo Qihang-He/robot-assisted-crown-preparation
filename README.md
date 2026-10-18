@@ -1,7 +1,7 @@
-# Analysis code: Accuracy of robotic full-crown preparation and preoperative crown fit
+﻿# Analysis code: Accuracy of robotic full-crown preparation and preoperative crown fit
 
 This repository contains the analysis code of the study *"Accuracy of robotic full-crown preparation
-and preoperative crown fit"* (submitted to the *Journal of Dental Research*). Thirty-two
+and preoperative crown fit"* (submitted to the *Journal of Dentistry*). Thirty-two
 PolyJet-printed mandibular first molar models (tooth #36) were randomised into four cement-space
 groups (40, 60, 80 and 100 um; n = 8 each) and prepared by a six-axis robot with marker-based
 optical tracking, after which preoperatively fabricated crowns with the matching cement space were
@@ -209,7 +209,7 @@ Song, Chen Liu, Shizhu Bai, Yimin Zhao.
 If you use this code, please cite the article and the archived release:
 
 > He Q, Liu Y, Zhang J, Song S, Liu C, Bai S, Zhao Y. Accuracy of robotic full-crown preparation and
-> preoperative crown fit. *Journal of Dental Research* (submitted).
+> preoperative crown fit. *Journal of Dentistry* (under review).
 
 Machine-readable metadata are in [CITATION.cff](CITATION.cff).
 
