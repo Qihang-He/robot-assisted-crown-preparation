@@ -5,7 +5,7 @@ All notable changes to this repository are documented in this file.
 ## v1.0.0 - 2026-10-04
 
 First public release, accompanying the manuscript submission *"Accuracy of robotic full-crown
-preparation and preoperative crown fit"* (submitted to the *Journal of Dental Research*).
+preparation and preoperative crown fit"* (submitted to the *Journal of Dentistry*).
 
 * The repository layout is organised by runtime: `01_geomagic_wrap_scripts/` holds the seven
   Geomagic Wrap 2021 scripts in the three processing steps of Appendix Section 4 plus the STL
