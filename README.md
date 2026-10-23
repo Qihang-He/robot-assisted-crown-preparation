@@ -1,4 +1,4 @@
-﻿# Analysis code: Accuracy of robotic full-crown preparation and preoperative crown fit
+﻿# Analysis code: Accuracy of robot-assisted full-crown preparation and preoperative crown fit at different cement spaces
 
 This repository contains the analysis code of the study *"Accuracy of robotic full-crown preparation
 and preoperative crown fit"* (submitted to the *Journal of Dentistry*). Thirty-two
