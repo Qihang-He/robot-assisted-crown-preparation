@@ -1,6 +1,6 @@
-cff-version: 1.2.0
+﻿cff-version: 1.2.0
 message: "If you use this code, please cite the article and release v1.0.0 of this repository."
-title: "Analysis code for: Accuracy of robotic full-crown preparation and preoperative crown fit"
+title: "Analysis code for: Accuracy of robot-assisted full-crown preparation and preoperative crown fit at different cement spaces"
 abstract: >-
   Python analysis code for an in vitro study of robot-assisted full-crown preparation and
   the seating fit of preoperatively fabricated crowns. The repository contains (i) the
@@ -60,7 +60,7 @@ date-released: "2026-10-04"
 repository-code: "https://github.com/Qihang-He/robot-assisted-crown-preparation"
 references:
   - type: article
-    title: "Accuracy of robotic full-crown preparation and preoperative crown fit"
+    title: "Accuracy of robot-assisted full-crown preparation and preoperative crown fit at different cement spaces"
     authors:
       - family-names: He
         given-names: Qihang
